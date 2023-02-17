@@ -16,7 +16,7 @@ export default {
   setup() {
     const message = ref('');
     const onSubmit = () => {
-      console.log(`The typed message is${message.value}`);
+      alert(`The typed message is ${message.value}`);
     };
     return {
       message,
